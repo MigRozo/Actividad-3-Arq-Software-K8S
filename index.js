@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
 	res.json({
 		message: 'microservicio para el diplomado de Arquitectura de Software.',
 		status: 'OK',
-		name: 'sabana',
+		name: 'Unisabana',
 	})
 });
 
