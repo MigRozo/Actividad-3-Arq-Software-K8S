@@ -1,0 +1,8 @@
+image:
+  repository: unisabana-microservicio
+  pullPolicy: IfNotPresent
+  tag: "v1.0.0"
+
+service:
+  type: ClusterIP
+  port: 3000

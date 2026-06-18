@@ -1,0 +1,14 @@
+{
+	"name": "unisabana-k8s",
+	"version": "1.0.0",
+	"description": "Microservicio básico para el diplomado",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"author": "Miguel Angel Rozo",
+	"license": "ISC",
+	"dependencies": {
+		"express": "5.2.1"
+	}
+}
