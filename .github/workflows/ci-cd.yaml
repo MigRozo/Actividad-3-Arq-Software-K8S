@@ -22,7 +22,7 @@ jobs:
 
       - name: Trigger ArgoCD Sync
         run: |
-          echo "Last Deploy: $(date)" >> my-helm-chart/values.yaml
+          echo "# Last Deploy: $(date)" >> my-helm-chart/values.yaml
           git config --global user.name "Github Actions Bot"
           git config --global user.email "actions@github.com"
           git add my-helm-chart/values.yaml
