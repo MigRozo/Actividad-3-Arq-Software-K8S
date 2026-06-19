@@ -14,7 +14,7 @@ Este repositorio contiene una aplicación académica diseñada para demostrar el
 * **Automatización CI:** GitHub Actions
 
 
-## 2. Glujo GitOps
+## 2. Flujo GitOps
 Este repositorio actúa como la única fuente de verdad para el estado deseado de la infraestructura:
 
 1.  **Código & CI:** Yo como desarrollador hago un `push` a la rama main. GitHub Actions compila la aplicación y construye la imagen Docker.
